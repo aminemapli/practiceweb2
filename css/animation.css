@@ -1,0 +1,38 @@
+/*animation file*/
+
+@-webkit-keyframes colorchanger {
+    from {
+        background: -webkit-linear-gradient(60deg, #E07885, #935d8c, #615195);
+        background: linear-gradient(30deg, #E07885, #935d8c, #615195);
+    }
+    to {
+        background: -webkit-linear-gradient(60deg, #615195, #935d8c, #E07885);
+        background: linear-gradient(30deg, #615195, #935d8c, #E07885);
+    }
+}
+@keyframes colorchanger {
+    from {
+    	background: -webkit-linear-gradient(60deg, #615195, #935d8c, #E07885);
+    	background: linear-gradient(30deg, #615195, #935d8c, #E07885);
+    }
+    to {
+        background: -webkit-linear-gradient(60deg, #E07885, #935d8c, #615195);
+        background: linear-gradient(30deg, #E07885, #935d8c, #615195);
+    }
+}
+@keyframes zero {
+    from {
+    	color: #E07885;
+    }
+    to {
+     	color: #765691;
+    }
+}
+@keyframes r {
+    from {
+    	color: #765691;
+    }
+    to {
+     	color: #FFF;
+    }
+}
